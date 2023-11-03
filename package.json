@@ -12,9 +12,9 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/image": "^1.0.0",
-    "@nuxtjs/tailwindcss": "^6.8.1",
+    "@nuxtjs/tailwindcss": "^6.9.3",
     "install": "^0.13.0",
-    "npm": "^10.2.2",
+    "npm": "^10.2.3",
     "nuxt": "^3.8.0",
     "vue": "^3.3.7",
     "vue-router": "^4.2.5"

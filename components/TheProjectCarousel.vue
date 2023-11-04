@@ -51,7 +51,7 @@ const projects = ref([
   >
     <!--Project Card-->
     <div
-      class="project-card flex flex-col bg-orange-100 odd:bg-blue-100 last:bg-red-100 first:bg-yellow-200"
+      class="project-card flex flex-col bg-orange-100 odd:bg-blue-100 last:bg-red-100 first:bg-yellow-200 hover:shadow-lg"
       v-for="project in projects"
       :key="project.id"
     >

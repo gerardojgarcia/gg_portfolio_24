@@ -7,7 +7,7 @@
 </template>
 <style scoped>
 h1 {
-  margin-top: 35rem;
+  margin-top: 5rem;
   transform: translateX(50rem);
   font-size: 15rem;
   font-weight: bold;

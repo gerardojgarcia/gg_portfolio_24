@@ -1,10 +1,10 @@
 <script setup></script>
 <template>
   <div class="absolute navigation-container">
-    <nav class="lg:space-x-8 text-xl font-bold">
-      <NuxtLink class="nav-link">Work</NuxtLink>
-      <NuxtLink class="nav-link">About</NuxtLink>
-      <NuxtLink class="nav-link">Contact</NuxtLink>
+    <nav class="lg:space-x-8 dark:text-white text-xl font-bold">
+      <NuxtLink class="nav-link" to="/">Work</NuxtLink>
+      <NuxtLink class="nav-link" to="/about">About</NuxtLink>
+      <NuxtLink class="nav-link" to="/contact">Contact</NuxtLink>
     </nav>
   </div>
 </template>

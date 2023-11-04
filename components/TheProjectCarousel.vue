@@ -58,8 +58,8 @@ const projects = ref([
       <div>
         <nuxt-img :src="project.img" class="max-h-72 p-8" sizes="sm:100vw"></nuxt-img>
       </div>
-      <div class="bg-white">
-        <p class="project-name mt-3 font-bold">{{ project.name }}</p>
+      <div class="bg-white dark:bg-black">
+        <p class="project-name mt-3 font-bold dark:text-white">{{ project.name }}</p>
       </div>
     </div>
   </div>

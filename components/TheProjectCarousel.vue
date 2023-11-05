@@ -37,7 +37,7 @@ const projects = ref([
   },
   {
     id: 6,
-    name: "Monarch Construction",
+    name: "Oranges&Lemons",
     img: "./designer.webp",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],

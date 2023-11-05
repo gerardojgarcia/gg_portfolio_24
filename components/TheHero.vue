@@ -9,7 +9,7 @@
 h1 {
   margin-top: 5rem;
   transform: translateX(50rem);
-  font-size: 15rem;
+  font-size: 13vw;
   font-weight: bold;
 }
 </style>

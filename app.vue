@@ -5,33 +5,26 @@
 </template>
 
 <style>
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.4s;
+.scale-slide-enter-active,
+.scale-slide-leave-active {
+  position: absolute;
+  transition: all 01s ease;
 }
 
-/* entering start */
-.page-enter {
+.scale-slide-enter-from {
   left: -100%;
 }
 
-/* entering end */
-.page-enter-to {
-  left: 0;
+.scale-slide-enter-to {
+  left: 0%;
 }
 
-/* leaving start */
-.page-leave {
-  opacity: 1;
+.scale-slide-leave-from {
+  transform: scale(1);
 }
 
-/* leaving end */
-.page-leave-to {
-  opacity: 0;
-}
-
-.page-enter-from,
-.page-leave-to {
+.scale-slide-leave-to {
+  transform: scale(0.8);
   filter: blur(1rem);
 }
 </style>

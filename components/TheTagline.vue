@@ -2,7 +2,7 @@
 <template>
   <div class="absolute pl-24 flex dark:text-white">
     <p>
-      I am an independent Server Side Developer based in East Los Angeles, California.
+      I am a Frontend Developer based in East Los Angeles, California.
     </p>
     <p>
       I leverage the power of Nuxtjs and Vue to create captivating and high performing

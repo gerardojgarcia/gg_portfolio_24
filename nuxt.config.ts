@@ -4,9 +4,11 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/tailwindcss', "@nuxt/image"],
 
-app: {
-  pageTransition: {name:'scale-slide', mode: 'out-in'}
-},
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
+
+
 
 
 })

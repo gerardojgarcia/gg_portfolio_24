@@ -5,26 +5,14 @@
 </template>
 
 <style>
-.scale-slide-enter-active,
-.scale-slide-leave-active {
-  position: absolute;
-  transition: all 1.5s ease;
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
 }
 
-.scale-slide-enter-from {
-  left: -100%;
-}
-
-.scale-slide-enter-to {
-  left: 0%;
-}
-
-.scale-slide-leave-from {
-  transform: scale(1);
-}
-
-.scale-slide-leave-to {
-  transform: scale(0.8);
-  filter: blur(1rem);
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(.5rem);
 }
 </style>

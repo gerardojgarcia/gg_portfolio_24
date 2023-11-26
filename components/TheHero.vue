@@ -12,8 +12,8 @@ h1 {
   margin-top: 5rem;
   transform: translateX(50rem);
   font-size: 13vw;
-  font-weight: bold;
+  font-weight: 700;
   font-family: 'DM Sans', sans-serif;
-  font-family: 'Sora', sans-serif;
+
 }
 </style>

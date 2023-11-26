@@ -5,6 +5,7 @@
       <NuxtLink class="nav-link focus:text-red-300" to="/">Work</NuxtLink>
       <NuxtLink class="nav-link focus:text-red-300" to="/about">About</NuxtLink>
       <NuxtLink class="nav-link focus:text-red-300" to="/contact">Contact</NuxtLink>
+      <NuxtLink class="nav-link focus:text-red-300" to="/blog">Blog</NuxtLink>
     </nav>
   </div>
 </template>

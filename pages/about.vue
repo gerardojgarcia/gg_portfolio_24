@@ -24,7 +24,7 @@
             diverse websites using frameworks like Vue.js and Laravel, showcasing a
             versatile proficiency in web development.
           </p>
-          <div class="flex space-x-16 pt-16">
+          <div class="flex space-x-16 pt-6">
             <ul class="mt-1 mb-6">
               <strong class="text-2xl">UI/UX Design</strong>
               <li>Research</li>

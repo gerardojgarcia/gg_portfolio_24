@@ -4,7 +4,14 @@
     <div class="ml-60">
       <h1 class="text-5xl dark:text-white font-bold mt-16 pb-8">About</h1>
       <div class="about-me flex space-x-16">
-        <div class="w-1/4"></div>
+        <div class="w-1/4">
+          <NuxtImg
+            src="/profile_pic_2.png"
+            lazy
+            format="webp"
+            alt="Black and white photograph of Gerardo Garcia"
+          />
+        </div>
         <div class="personal-bio w-1/2 space-y-4">
           <strong class="text-3xl">Hi!</strong>
           <p>
@@ -31,7 +38,7 @@
               <li>UX Design</li>
               <li>Prototyping</li>
               <li>Web/App Design</li>
-              <li>UI kit</li>
+
               <li>Development support</li>
             </ul>
 
@@ -67,6 +74,6 @@
 </template>
 <style scoped>
 .personal-bio p {
-  font-size: 1.1rem;
+  font-size: 90%;
 }
 </style>

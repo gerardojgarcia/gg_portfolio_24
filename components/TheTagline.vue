@@ -1,9 +1,7 @@
 <script setup></script>
 <template>
-  <div class="absolute pl-24 flex dark:text-white">
-    <p>
-      I am a Frontend Developer based in East Los Angeles, California.
-    </p>
+  <div class="absolute pt-6 pl-24 flex dark:text-white">
+    <p>I am a Frontend Developer based in East Los Angeles, California.</p>
     <p>
       I leverage the power of Nuxtjs and Vue to create captivating and high performing
       websites.

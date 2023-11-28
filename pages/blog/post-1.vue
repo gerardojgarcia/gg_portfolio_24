@@ -11,9 +11,9 @@ const blog = ref([
 
     <section class="text-black dark:text-white ">
       <strong class="text-4xl">The Foundation: HTML, CSS, and JavaScript</strong>
-      <p class="pt-6 ">
-        <strong>HTML , or HyperText Markup Language, </strong>serves as the
-        fundamental building block of any web page. It provides the structure, defining
+
+      <p class="pt-6 "><strong>HTML , or HyperText Markup Language, </strong>
+        serves as thefundamental building block of any web page. It provides the structure, defining
         elements such as headings, paragraphs, and images. Learning HTML is akin to
         understanding the blueprint of a house — an essential foundation on which the
         entire structure is built. CSS - Adding Style and Elegance Cascading Style Sheets

@@ -20,6 +20,7 @@ const projects = ref([
     img: "./telos_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
+    link: 'www.elacompost.info'
   },
   {
     id: 4,
@@ -51,7 +52,7 @@ const projects = ref([
     <div
       class="project-card flex flex-col bg-orange-100 odd:bg-blue-100 last:bg-red-100 last:hover:-translate-x-8 first:bg-yellow-200 first:hover:translate-x-8 hover:shadow-xl hover:scale-125 duration-150"
       v-for="project in projects" :key="project.id">
-      <NuxtLink to="/">
+      <a class="cursor-pointer" :href="project.link" target="_blank">
         <div>
           <nuxt-img :src="project.img" class="max-h-80 p-8" sizes="sm:100vw" preload format="webp"></nuxt-img>
         </div>
@@ -60,7 +61,7 @@ const projects = ref([
             {{ project.name }}
           </p>
         </div>
-      </NuxtLink>
+      </a>
     </div>
   </div>
 </template>

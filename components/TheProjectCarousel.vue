@@ -66,7 +66,7 @@ const projects = ref([
 </template>
 <style scoped>
 .project-card {
-  min-width: 25rem;
+  min-width: 35rem;
 }
 
 .project-carousel::-webkit-scrollbar {

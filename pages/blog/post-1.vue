@@ -9,10 +9,10 @@ const blog = ref([
   <div class="blog-container overflow-y-auto px-32 pt-8">
     <h1>{{ blog.title }}</h1>
 
-    <section class="text-black dark:text-white">
+    <section class="text-black dark:text-white ">
       <strong class="text-4xl">The Foundation: HTML, CSS, and JavaScript</strong>
-      <p class="pt-6">
-        HTML - The Architect of the Web HTML, or HyperText Markup Language, serves as the
+      <p class="pt-6 ">
+        <strong>HTML , or HyperText Markup Language, </strong>serves as the
         fundamental building block of any web page. It provides the structure, defining
         elements such as headings, paragraphs, and images. Learning HTML is akin to
         understanding the blueprint of a house — an essential foundation on which the
@@ -27,29 +27,29 @@ const blog = ref([
         engaging experience.
       </p>
       <article class="pt-16">
-        <strong>The Benefits of Web Development Skills</strong>
-        <p>
-          1. Empowerment in the Digital Era Understanding web development empowers you in
+        <h2 class="text-3xl font-bold">The Benefits of Web Development Skills</h2>
+        <p class="pt-8">
+          <strong>1. Empowerment in the Digital Era</strong> Understanding web development empowers you in
           the digital age. It's not just about creating websites; it's about shaping the
           digital experiences that connect people globally. The ability to craft your
           digital presence or contribute to the online landscape is a valuable skill in
           today's interconnected world.
         </p>
         <p>
-          2. Career Opportunities Abound Web development skills are in high demand across
+          <strong>2. Career Opportunities Abound</strong> Web development skills are in high demand across
           industries. Whether you're aspiring to be a full-time developer or seeking to
           complement your existing role, proficiency in HTML, CSS, and JavaScript opens
           doors to a wide array of opportunities. From front-end development to full-stack
           positions, the demand for skilled developers continues to grow.
         </p>
         <p>
-          3. Creativity Unleashed Web development is a creative outlet. The ability to
+          <strong>3. Creativity Unleashed</strong> Web development is a creative outlet. The ability to
           bring ideas to life through code provides a unique avenue for self-expression.
           Designing visually appealing layouts, crafting seamless user experiences, and
           solving problems through code foster a sense of accomplishment and creativity.
         </p>
         <p>
-          4. Continuous Learning and Adaptation The tech world is ever-evolving, and web
+          <strong>4. Continuous Learning and Adaptation</strong> The tech world is ever-evolving, and web
           development is no exception. Learning HTML, CSS, and JavaScript is not just
           about mastering a set of tools; it's about embracing a mindset of continuous
           learning and adaptation. As you grow in your coding journey, you'll find
@@ -69,6 +69,15 @@ const blog = ref([
 </template>
 <style scoped>
 .blog-container {
-  height: 35rem;
+  height: 30rem;
+}
+
+section p {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+strong {
+  font-size: 1.4rem;
 }
 </style>

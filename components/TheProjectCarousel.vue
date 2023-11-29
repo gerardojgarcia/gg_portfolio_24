@@ -20,7 +20,7 @@ const projects = ref([
     img: "./telos_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
-    link: 'www.elacompost.info'
+    link: 'https://www.elacompost.info'
   },
   {
     id: 4,

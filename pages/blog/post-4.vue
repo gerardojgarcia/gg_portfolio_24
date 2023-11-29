@@ -15,7 +15,7 @@
 
 <h3>The Importance of JavaScript</h3>
 
-<p><strong>Enhanced User Interactivity</strong></p>
+<p><strong>1. Enhanced User Interactivity:</strong> JavaScript empowers developers to create responsive and interactive web applications, fostering a dynamic user experience without the need for constant page reloads.</p>
 
         </section>
 

@@ -11,9 +11,11 @@
       <form action="submit" class="w-1/2 flex flex-col dark:border-white border-2 p-8 mt-20 z-2">
 
         <label for="name" class="dark:text-white text-black">Full
-          Name</label><input type="text" name="name" placeholder="please enter your first and last name"
+          Name</label>
+        <input type="text" name="name" placeholder="please enter your first and last name"
           class="border-2 dark:bg-black dark:text-white p-1 dark:border-white" required>
-        <label for="name" class="dark:text-white text-black">Email</label><input type="text" name="name"
+        <label for="name" class="dark:text-white text-black">Email</label>
+        <input type="text" name="name"
           placeholder="please enter your email" class="border-2 dark:bg-black dark:text-white p-1 dark:border-white"
           required>
 
@@ -25,7 +27,7 @@
         <!--Form Button-->
 
         <button
-          class="border-2 dark:bg-black dark:text-white p-1 dark:border-white mt-8 dark:hover:bg-white dark:hover:text-black">Submit</button>
+          class=" border-2 dark:bg-black dark:text-white p-1 py-4 duration-120 dark:border-white mt-8 dark:hover:bg-white dark:hover:text-black">Submit</button>
 
 
 

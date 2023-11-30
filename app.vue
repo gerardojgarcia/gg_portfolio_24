@@ -22,4 +22,15 @@
   opacity: 0;
   filter: blur(.5rem);
 }
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: all 0.3s;
+}
+
+.layout-enter-from,
+.layout-leave-to {
+  opacity: 0;
+  filter: blur(.5rem);
+}
 </style>

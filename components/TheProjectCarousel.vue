@@ -6,6 +6,7 @@ const projects = ref([
     img: "./taxbuddy_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
+    link: "https://yourtaxbuddy.pro"
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ const projects = ref([
     img: "./earth_tutor_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
+    link: "https://earthtutor.info"
   },
   {
     id: 3,
@@ -20,7 +22,7 @@ const projects = ref([
     img: "./telos_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
-    link: 'https://www.elacompost.info'
+    link: 'https://elacompost.info'
   },
   {
     id: 4,
@@ -35,6 +37,7 @@ const projects = ref([
     img: "./telos_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
+    link: 'https://drivetelos.info'
   },
   {
     id: 6,

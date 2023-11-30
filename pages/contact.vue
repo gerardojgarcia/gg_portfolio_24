@@ -8,7 +8,7 @@
     <!--Form Container-->
     <div class="w-3/4 flex justify-center">
       <!--Form-->
-      <form action="submit" class="w-1/2 flex flex-col dark:border-white border-2 p-8 mt-20 z-2">
+      <form action="https://formsubmit.io/send/8ef1bf01-e6ae-43fb-b6dd-f05c4626513a" class="w-1/2 flex flex-col dark:border-white border-2 p-8 mt-20 z-2">
 
         <label for="name" class="dark:text-white text-black">Full
           Name</label>

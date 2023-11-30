@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     head: {
       title: 'Gerardo Garcia: Frontend Developer based in Los Angeles',
       viewport: 'width=device-width, initial-scale=1',
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
     },
 
   },

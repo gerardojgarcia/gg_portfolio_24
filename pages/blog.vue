@@ -1,6 +1,9 @@
 <script setup>
 definePageMeta({
-  layout: 'bloglayout'
+  layout: 'bloglayout',
+  layoutTransition: {
+    name: 'layout'
+  }
 })
 const posts = ref([
   {
@@ -37,7 +40,7 @@ const posts = ref([
     <NuxtPage />
   </div>
 </template>
-<style>
+<style scoped>
 nav {
   height: 2rem;
 }

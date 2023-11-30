@@ -4,7 +4,10 @@
     <div class="w-1/4">
       <h1 class="text-5xl dark:text-white font-bold mt-32 ml-32">Contact</h1>
     </div>
+
+    <!--Form Container-->
     <div class="w-3/4 flex justify-center">
+      <!--Form-->
       <form action="submit" class="w-1/2 flex flex-col dark:border-white border-2 p-8 mt-20 z-2">
 
         <label for="name" class="dark:text-white text-black">Full
@@ -19,6 +22,7 @@
           class="border-2 dark:bg-black dark:text-white p-1 dark:border-white" placeholder="Tell me about your project"
           required></textarea>
 
+        <!--Form Button-->
 
         <button
           class="border-2 dark:bg-black dark:text-white p-1 dark:border-white mt-8 dark:hover:bg-white dark:hover:text-black">Submit</button>

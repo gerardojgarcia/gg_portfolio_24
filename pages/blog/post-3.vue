@@ -1,13 +1,16 @@
 <script></script>
 <template>
-    <div class="blog-container overflow-y-auto px-32 pt-8">
+    <div class="blog-container overflow-y-auto px-32 pt-8 dark:text-white">
         <section>
-<h1>Unveiling the Power of CSS: A Beginner's Guide to Transformative Web Styling</h1>
+            <h1>Unveiling the Power of CSS: A Beginner's Guide to Transformative Web Styling</h1>
 
-<p>In the dynamic realm of web development, CSS (Cascading Style Sheets) emerges as a linchpin for creating visually appealing and user-friendly websites. Let's delve into what CSS is, why it holds paramount importance, and how newcomers to the coding arena can embark on their journey to master this influential styling language.</p>
+            <p>In the dynamic realm of web development, CSS (Cascading Style Sheets) emerges as a linchpin for creating
+                visually appealing and user-friendly websites. Let's delve into what CSS is, why it holds paramount
+                importance, and how newcomers to the coding arena can embark on their journey to master this influential
+                styling language.</p>
 
-<h2>Understanding CSS: Crafting Aesthetic Brilliance
-</h2>
+            <h2>Understanding CSS: Crafting Aesthetic Brilliance
+            </h2>
             <p>
 
                 In the vast landscape of web development, HTML (Hypertext Markup Language) stands as the cornerstone,
@@ -86,5 +89,4 @@
         </section>
 
 
-    </div>
-</template>
+    </div></template>

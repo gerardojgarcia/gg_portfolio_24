@@ -31,6 +31,6 @@
 .layout-enter-from,
 .layout-leave-to {
   opacity: 0;
-  filter: blur(.5rem);
+  filter: blur(.5rem), grayscale(10);
 }
 </style>

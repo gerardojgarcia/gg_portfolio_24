@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="flex ">
-    <div class="w-1/4 flex flex-col text-left  ml-40  justify-center">
+    <div class="w-1/4 flex flex-col text-left  ml-40g  justify-center">
       <h1 class="text-5xl dark:text-white font-bold mb-16 ">Contact</h1>
       <p>email: mrgerardogarcia@icloud.com
 

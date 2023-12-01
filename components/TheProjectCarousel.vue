@@ -42,9 +42,10 @@ const projects = ref([
   {
     id: 6,
     name: "Oranges&Lemons",
-    img: "./telos_1920.jpg",
+    img: "./ol_thumb_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
+    link: 'https://dtlaclean.com'
   },
 ]);
 </script>

@@ -19,7 +19,7 @@ const projects = ref([
   {
     id: 3,
     name: "ELACompost",
-    img: "./telos_1920.jpg",
+    img: "./elacompost_thumb_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
     link: 'https://elacompost.info'

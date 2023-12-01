@@ -11,7 +11,7 @@
 h1 {
   margin-top: 7rem;
   transform: translateX(50rem);
-  font-size: 13vw;
+  font-size: 12vw;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
 }

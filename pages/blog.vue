@@ -37,7 +37,7 @@ const posts = ref([
       </NuxtLink>
     </nav>
 
-    <NuxtPage />
+    <NuxtPage :page-key="route => route.fullPath"/>
   </div>
 </template>
 <style scoped>

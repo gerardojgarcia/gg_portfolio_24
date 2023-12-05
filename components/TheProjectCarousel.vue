@@ -53,10 +53,11 @@ const projects = ref([
   <!--Project Carousel-->
   <div class="project-carousel flex items-center translate-y-16 min-h-xl space-x-8 overflow-x-scroll px-16 py-8">
     <!--Project Card-->
+    <a class="cursor-pointer" :href="project.link" target="_blank" v-for="project in projects" :key="project.id">
     <div
       class="project-card flex flex-col bg-orange-100 odd:bg-blue-100 last:bg-red-100 last:hover:-translate-x-8 first:bg-yellow-200 first:hover:translate-x-8 hover:shadow-xl hover:scale-125 duration-150"
-      v-for="project in projects" :key="project.id">
-      <a class="cursor-pointer" :href="project.link" target="_blank">
+      >
+
         <div>
           <nuxt-img :src="project.img" class="max-h-80 p-8" sizes="sm:100vw" preload format="webp"></nuxt-img>
         </div>
@@ -65,8 +66,9 @@ const projects = ref([
             {{ project.name }}
           </p>
         </div>
-      </a>
+
     </div>
+    </a>
   </div>
 </template>
 <style scoped>

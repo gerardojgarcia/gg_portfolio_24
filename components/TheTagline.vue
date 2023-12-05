@@ -6,6 +6,6 @@
       I leverage the power of Nuxtjs and Vue to create captivating and high performing
       websites.
     </p>
-    <NuxtLink to="contact" class="ml-4 font-bold">Let's work together! </NuxtLink>
+    <NuxtLink to="contact" class="ml-2 hover:text-red-200 font-bold">Let's work together! </NuxtLink>
   </div>
 </template>

@@ -90,3 +90,9 @@
 
 
     </div></template>
+
+<style scoped>
+.blog-container {
+  height: 30rem;
+}
+</style>

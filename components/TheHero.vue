@@ -9,7 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Sora&display=swap");
 
 h1 {
-  margin-top: 7rem;
+  margin-top: 7.5rem;
   transform: translateX(50rem);
   font-size: 12vw;
   font-weight: 700;

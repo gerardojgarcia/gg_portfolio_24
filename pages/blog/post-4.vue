@@ -1,6 +1,6 @@
 <script></script>
 <template>
-    <div class="blog-container overflow-y-auto px-32 pt-8">
+    <div class="blog-container h-80 overflow-y-auto px-32 pt-8">
         <section>
 <h1>Unleashing the Power of JavaScript: A Beginner's Guide to Dynamic Web Development</h1>
 
@@ -22,3 +22,11 @@
 
     </div>
 </template>
+
+<style scoped>
+
+
+.blog-container {
+  height: 30rem;
+}
+</style>

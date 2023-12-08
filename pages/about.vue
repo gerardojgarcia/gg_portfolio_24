@@ -12,25 +12,29 @@
             alt="Black and white photograph of Gerardo Garcia"
           />
         </div>
-        <div class="personal-bio w-1/2 space-y-4">
-          <strong class="text-3xl">Hi!</strong>
-          <p>
-            My name is Gerardo! I am a full stack developer specializing in SSR frameworks
-            like Nuxt.js and Laravel.
-          </p>
-          <p>
-            I began my development career by establishing an online presence for a small
-            cleaning business, Oranges and Lemons, using "no-code" solutions like Weebly
-            and Zapier. Our innovative website design and features, including SMS
-            notifications and live tracking, contributed to over $1 million USD in sales
-            by offering clients a modern and hassle-free cleaning service experience.
-          </p>
-          <p>
-            Since then, I've taken the initiative to teach myself coding, mastering HTML,
-            CSS, and JavaScript. Progressing further, I've expanded my skills to build
-            diverse websites using frameworks like Vue.js and Laravel, showcasing a
-            versatile proficiency in web development.
-          </p>
+        <div class="personal-bio w-1/2" >
+          <div class="space-y-4 h-52 space-y-auto mb-6">
+            <strong class="text-3xl">Hi!</strong>
+            <p>
+              My name is Gerardo! I am a full stack developer specializing in SSR frameworks
+              like Nuxt.js and Laravel.
+            </p>
+            <p>
+              I began my development career by establishing an online presence for a small
+              cleaning business, Oranges and Lemons, using "no-code" solutions like Weebly
+              and Zapier. Our innovative website design and features, including SMS
+              notifications and live tracking, contributed to over $1 million USD in sales
+              by offering clients a modern and hassle-free cleaning service experience.
+            </p>
+            <p>
+              Since then, I've taken the initiative to teach myself coding, mastering HTML,
+              CSS, and JavaScript. Progressing further, I've expanded my skills to build
+              diverse websites using frameworks like Vue.js and Laravel, showcasing a
+              versatile proficiency in web development.
+            </p>
+
+
+          </div>
           <div class="flex space-x-16 pt-6">
             <ul class="mt-1 mb-6">
               <strong class="text-2xl">UI/UX Design</strong>

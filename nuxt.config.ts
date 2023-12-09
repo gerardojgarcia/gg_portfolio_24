@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: ['@nuxtjs/tailwindcss', "@nuxt/image"],
+  modules: ['@nuxtjs/tailwindcss', "@nuxt/image", "nuxt-icon"],
 
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },

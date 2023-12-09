@@ -83,8 +83,8 @@ function right (){
 
   </div>
 
-    <div class="mt-16 self-end">
-      <button @click="left" class="btn-left w-24 cursor-pointer focus:scale-90 "><Icon name="ri:arrow-left-line" color="black" class="text-5xl" /></button><button @click="right" class="btn-right w-24 focus:scale-90 "><Icon name="ri:arrow-right-line" color="black" class="text-5xl" /></button>
+    <div class="mt-16 w-60 space-x-8 self-end">
+      <button @click="left" class="btn-left cursor-pointer focus:scale-90 focus:bg-red-200 rounded-xl bg-white"><Icon name="ri:arrow-left-line" color="black" class="text-5xl" /></button><button @click="right" class="btn-right focus:scale-90 focus:bg-red-200 rounded-xl bg-white"><Icon name="ri:arrow-right-line" color="black" class="text-5xl  " /></button>
     </div>
 
 

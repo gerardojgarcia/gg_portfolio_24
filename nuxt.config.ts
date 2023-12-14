@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: ['@nuxtjs/tailwindcss', "@nuxt/image", "nuxt-icon"],
+  modules: ['@nuxtjs/tailwindcss', "@nuxt/image", "nuxt-icon", "nuxt-gtag"],
 
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
@@ -14,6 +14,14 @@ export default defineNuxtConfig({
     },
 
   },
+
+  nitro: {
+    compressPublicAssets: true,
+  },
+gtag: {
+    id: 'G-833G02BN7R'
+},
+
 
 
 

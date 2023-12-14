@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="absolute navigation-container">
-    <nav class="lg:space-x-8 dark:text-white text-xl font-bold">
+    <nav class="lg:space-x-6 dark:text-white text-xl font-bold">
       <NuxtLink class="nav-link focus:text-red-300" to="/">Work</NuxtLink>
       <NuxtLink class="nav-link focus:text-red-300" to="/about">About</NuxtLink>
       <NuxtLink class="nav-link focus:text-red-300" to="/contact">Contact</NuxtLink>

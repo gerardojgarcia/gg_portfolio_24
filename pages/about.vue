@@ -13,7 +13,7 @@
           />
         </div>
         <div class="personal-bio w-1/2" >
-          <div class="space-y-4 h-52 space-y-auto mb-6">
+          <div class="space-y-4 h-52 space-y-auto mb-6 overflow-y-auto">
             <strong class="text-3xl">Hi!</strong>
             <p>
               My name is Gerardo! I am a full stack developer specializing in SSR frameworks

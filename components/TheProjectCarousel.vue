@@ -6,15 +6,15 @@ const projects = ref([
     img: "./taxbuddy_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
-    link: "https://yourtaxbuddy.pro"
+    link: "https://yourtaxbuddy.pro",
   },
   {
     id: 2,
     name: "EarthTutor",
-    img: "./earth_tutor_1920.jpg",
+    img: "./earth_tutor_thumbnail.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
-    link: "https://earthtutor.info"
+    link: "https://earthtutor.pro",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const projects = ref([
     img: "./elacompost_thumb_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
-    link: 'https://elacompost.info'
+    link: "https://elacompost.info",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const projects = ref([
     img: "./telos_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
-    link: 'https://drivetelos.info'
+    link: "https://drivetelos.info",
   },
   {
     id: 6,
@@ -45,49 +45,67 @@ const projects = ref([
     img: "./ol_thumb_1920.jpg",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
-    link: 'https://dtlaclean.com'
+    link: "https://dtlaclean.com",
   },
 ]);
 
-
-function scrollLeft(){
-
-  document.querySelector('.project-carousel').scrollLeft -= 1000
-
+function scrollLeft() {
+  document.querySelector(".project-carousel").scrollLeft -= 1000;
 }
 
-function scrollRight (){
-  document.querySelector('.project-carousel').scrollLeft += 1000
+function scrollRight() {
+  document.querySelector(".project-carousel").scrollLeft += 1000;
 }
 </script>
 <template>
-  <section class="flex flex-col ">
-  <!--Project Carousel-->
-  <div class="project-carousel flex flex items-center translate-y-16 min-h-xl space-x-8 overflow-x-scroll px-16 py-8 scroll-smooth ">
-    <!--Project Card-->
-    <a class="cursor-pointer" :href="project.link" target="_blank" v-for="project in projects" :key="project.id">
-    <div class="project-card flex flex-col bg-orange-100 odd:bg-blue-100 last:bg-red-100 last:hover:-translate-x-4 first:bg-yellow-200 first:hover:translate-x-4 hover:shadow-xl hover:scale-110 duration-150">
-
-        <div>
-          <nuxt-img :src="project.img" class="max-h-80 p-8 " sizes="sm:100vw"  width="600px" format="webp"></nuxt-img>
+  <section class="flex flex-col">
+    <!--Project Carousel-->
+    <div
+      class="project-carousel flex flex items-center translate-y-16 min-h-xl space-x-8 overflow-x-scroll px-16 py-8 scroll-smooth"
+    >
+      <!--Project Card-->
+      <a
+        class="cursor-pointer"
+        :href="project.link"
+        target="_blank"
+        v-for="project in projects"
+        :key="project.id"
+      >
+        <div
+          class="project-card flex flex-col bg-orange-100 odd:bg-blue-100 last:bg-red-100 last:hover:-translate-x-4 first:bg-yellow-200 first:hover:translate-x-4 hover:shadow-xl hover:scale-110 duration-150"
+        >
+          <div>
+            <nuxt-img
+              :src="project.img"
+              class="max-h-80 p-8"
+              sizes="sm:100vw"
+              width="600px"
+              format="webp"
+              preload
+            ></nuxt-img>
+          </div>
+          <div class="bg-white dark:bg-black">
+            <p class="project-name mt-3 font-bold pl-1 py-2 dark:text-white">
+              {{ project.name }}
+            </p>
+          </div>
         </div>
-        <div class="bg-white dark:bg-black">
-          <p class="project-name mt-3 font-bold pl-1 py-2 dark:text-white">
-            {{ project.name }}
-          </p>
-        </div>
-
+      </a>
     </div>
-    </a>
-
-
-  </div>
 
     <div class="mt-16 w-60 space-x-8 self-end">
-      <button @click="scrollLeft" class="btn-left cursor-pointer focus:scale-90 focus:bg-red-200 rounded-xl bg-white"><Icon name="ri:arrow-left-line" color="black" class="text-5xl" /></button><button @click="scrollRight" class="btn-right focus:scale-90 focus:bg-red-200 rounded-xl bg-white"><Icon name="ri:arrow-right-line" color="black" class="text-5xl  " /></button>
+      <button
+        @click="scrollLeft"
+        class="btn-left cursor-pointer focus:scale-90 focus:bg-red-200 rounded-xl bg-white"
+      >
+        <Icon name="ri:arrow-left-line" color="black" class="text-5xl" /></button
+      ><button
+        @click="scrollRight"
+        class="btn-right focus:scale-90 focus:bg-red-200 rounded-xl bg-white"
+      >
+        <Icon name="ri:arrow-right-line" color="black" class="text-5xl" />
+      </button>
     </div>
-
-
   </section>
 </template>
 <style scoped>

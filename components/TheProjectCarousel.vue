@@ -47,6 +47,14 @@ const projects = ref([
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
     link: "https://dtlaclean.com",
   },
+  {
+    id: 7,
+    name: "snapstudio!!",
+    img: "./snap_thumbnail.png",
+    video: "./video.webm",
+    tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
+    link: "https://snapstudio.shop",
+  },
 ]);
 
 function scrollLeft() {

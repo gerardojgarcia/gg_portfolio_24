@@ -6,7 +6,7 @@ const blog = ref([
 ]);
 </script>
 <template>
-  <div class="blog-container overflow-y-auto px-32 pt-8">
+  <div class="blog-container overflow-y-auto px-32 pt-8 dark:bg-black">
     <h1>{{ blog.title }}</h1>
 
     <section class="text-black dark:text-white ">

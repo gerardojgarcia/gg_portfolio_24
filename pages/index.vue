@@ -3,5 +3,6 @@
   <div>
     <TheTagline />
     <TheProjectCarousel />
+
   </div>
 </template>

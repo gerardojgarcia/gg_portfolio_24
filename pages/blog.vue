@@ -1,9 +1,8 @@
 <script setup>
 definePageMeta({
-  layout: 'bloglayout',
-  layoutTransition: {
-    name: 'layout'
-  }
+  layout: 'false',
+  layoutTransition: 'layout',
+
 })
 const posts = ref([
   {
@@ -32,18 +31,21 @@ const posts = ref([
     link: "/blog/html-tags-for-beginners",
   },
 
+
 ]);
 </script>
 <template>
-  <div class="p-16">
-    <h1 class="text-4xl font-bold text-black dark:text-white mb-8">Let's Talk About Web Dev</h1>
+  <div class="p-16 dark:bg-black" >
+    <h1 class="text-4xl font-bold text-black dark:text-white dark:bg-black mb-8">Let's Talk About Web Dev</h1>
 
     <nav v-for="post in posts" :key="post.id" class="flex overflow-y-auto max-h-52">
       <NuxtLink :to="post.link" class="focus:text-red-300 dark:text-white text-2xl">{{ post.title }}
       </NuxtLink>
     </nav>
 
-    <NuxtPage :page-key="route => route.fullPath"/>
+    <NuxtLink to="/" class="text-2xl font-bold text-black dark:text-white mb-8">Back to Home</NuxtLink>
+
+    <NuxtPage />
   </div>
 </template>
 <style scoped>

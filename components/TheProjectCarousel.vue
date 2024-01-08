@@ -80,12 +80,12 @@ function scrollRight() {
         :key="project.id"
       >
         <div
-          class="project-card flex flex-col bg-orange-100 odd:bg-blue-100 last:bg-red-100 last:hover:-translate-x-4 first:bg-yellow-200 first:hover:translate-x-4 hover:shadow-xl hover:scale-110 duration-150"
+          class="project-card flex flex-col bg-orange-100 odd:bg-blue-100 last:bg-red-100 first:bg-yellow-200 overflow-hidden hover:shadow-xl  "
         >
           <div>
             <nuxt-img
               :src="project.img"
-              class="max-h-80 p-8"
+              class="max-h-80 p-8 hover:scale-110 duration-150"
               sizes="sm:100vw"
               width="600px"
               format="webp"

@@ -69,12 +69,126 @@
             </div>
             <div>
               <strong class="text-4xl">Experience</strong>
-              <strong>Telos Truck</strong>
-              <p class="experience-dates">Example</p>
-              <p class="experience-title">Example</p>
-              <ul class="experience-descriptiion">
-                <li class="experience-description-details">example</li>
-              </ul>
+
+              <!--Work Experience Div-->
+              <div class="work-exp mt-6">
+                <strong>Telos</strong>
+                <p class="experience-dates">2022-2023</p>
+                <p class="experience-title">Frontend Developer</p>
+                <ul class="experience-descriptiion">
+                  <li>
+                    Designed and implemented a sleek, animation-rich landing page,
+                    ensuring ADA compliance and enhancing user interaction through
+                    effective use of Vue.js and TailwindCSS.
+                  </li>
+                </ul>
+              </div>
+
+              <!--Work Experience Div-->
+              <div class="work-exp mt-6">
+                <strong>TaxBuddy</strong>
+                <p class="experience-dates">2022-Present</p>
+                <p class="experience-title">Frontend Developer</p>
+                <ul class="experience-descriptiion">
+                  <li>
+                    Created a responsive SaaS landing page, integrating engaging
+                    animations to boost user retention and facilitate a smooth user
+                    journey.
+                  </li>
+                </ul>
+              </div>
+              <!--Work Experience Div-->
+              <div class="work-exp mt-6">
+                <strong>Solar Sustain</strong>
+                <p class="experience-dates">2023-Present</p>
+                <p class="experience-title">Frontend Developer</p>
+                <ul class="experience-descriptiion">
+                  <li>
+                    Engineered a Nuxt-based landing page, enhancing the company's lead
+                    generation. Developed an interactive quote tool and spearheaded A/B
+                    testing for email campaigns, significantly improving customer
+                    engagement.
+                  </li>
+                </ul>
+              </div>
+              <!--Work Experience Div-->
+              <div class="work-exp mt-6">
+                <strong>Granite Ridge Properties</strong>
+                <p class="experience-dates">2023-Present</p>
+                <p class="experience-title">Frontend Developer</p>
+                <ul class="experience-descriptiion">
+                  <li>
+                    Spearheaded the design and development of a customer-centric landing
+                    page using Vue.js and Laravel, facilitating a seamless user
+                    experience. Leading the backend development for comprehensive web app
+                    functionalities, including client interactions and payment processing.
+                  </li>
+                </ul>
+              </div>
+              <!--Work Experience Div-->
+              <div class="work-exp mt-6">
+                <strong>Verified Tranpsort</strong>
+                <p class="experience-dates">2021-2023</p>
+                <p class="experience-title">Frontend Developer</p>
+                <ul class="experience-descriptiion">
+                  <li>
+                    Led multiple web development projects, focusing on responsive design,
+                    interactive features, and backend solutions that cater to diverse user
+                    needs and operational goals.
+                  </li>
+                </ul>
+              </div>
+              <!--Work Experience Div-->
+              <div class="work-exp mt-6">
+                <strong>EarthTutor</strong>
+                <p class="experience-dates">2021-2023</p>
+                <p class="experience-title">Frontend Developer</p>
+                <ul class="experience-descriptiion">
+                  <li>
+                    Led multiple web development projects, focusing on responsive design,
+                    interactive features, and backend solutions that cater to diverse user
+                    needs and operational goals.
+                  </li>
+                </ul>
+              </div>
+              <!--Work Experience Div-->
+              <div class="work-exp mt-6">
+                <strong>ELA Compost</strong>
+                <p class="experience-dates">2021-2023</p>
+                <p class="experience-title">Frontend Developer</p>
+                <ul class="experience-descriptiion">
+                  <li>
+                    Led multiple web development projects, focusing on responsive design,
+                    interactive features, and backend solutions that cater to diverse user
+                    needs and operational goals.
+                  </li>
+                </ul>
+              </div>
+              <!--Work Experience Div-->
+              <div class="work-exp mt-6">
+                <strong>snapstudio!!</strong>
+                <p class="experience-dates">2021-Present</p>
+                <p class="experience-title">Frontend Developer</p>
+                <ul class="experience-descriptiion">
+                  <li>
+                    Launched an e-commerce platform for handmade furniture, managing all
+                    aspects of website design, development, and Shopify integration.
+                    Implemented engaging visual elements to enhance the shopping
+                    experience and foster brand identity.
+                  </li>
+                </ul>
+              </div>
+              <!--Work Experience Div-->
+              <div class="work-exp mt-6">
+                <strong>Oranges & Lemons</strong>
+                <p class="experience-dates">2016-2020</p>
+                <p class="experience-title">Frontend Developer</p>
+                <ul class="experience-descriptiion">
+                  <li>
+                    Revolutionized the digital presence of a cleaning service company, driving it to become the #1 service in Downtown Los Angeles through strategic web development, no-code solutions, and targeted marketing campaigns
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

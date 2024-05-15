@@ -3,7 +3,7 @@ const projects = ref([
   {
     id: 1,
     name: "TaxBuddy",
-    img: "./taxbuddy_1920.jpg",
+    img: "./taxbuddy_1920.webp",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
     link: "https://yourtaxbuddy.pro",
@@ -11,7 +11,7 @@ const projects = ref([
   {
     id: 2,
     name: "EarthTutor",
-    img: "./earth_tutor_thumbnail.jpg",
+    img: "./earth_tutor_thumbnail.webp",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
     link: "https://earthtutor.pro",
@@ -19,7 +19,7 @@ const projects = ref([
   {
     id: 3,
     name: "ELACompost",
-    img: "./elacompost_thumb_1920.jpg",
+    img: "./elacompost_thumb_1920.webp",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
     link: "https://elacompost.info",
@@ -27,14 +27,14 @@ const projects = ref([
   {
     id: 4,
     name: "VerifiedTransport",
-    img: "./verified_1920.jpg",
+    img: "./verified_1920.webp",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
   },
   {
     id: 5,
     name: "Telos",
-    img: "./telos_1920.jpg",
+    img: "./telos_1920.webp",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
     link: "https://drivetelos.info",
@@ -42,7 +42,7 @@ const projects = ref([
   {
     id: 6,
     name: "Oranges&Lemons",
-    img: "./ol_thumb_1920.jpg",
+    img: "./ol_thumb_1920.webp",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
     link: "https://dtlaclean.com",
@@ -80,7 +80,7 @@ function scrollRight() {
         :key="project.id"
       >
         <div
-          class="project-card flex flex-col bg-orange-100 odd:bg-blue-100 last:bg-red-100 first:bg-yellow-200 overflow-hidden hover:shadow-xl  "
+          class="project-card flex flex-col bg-orange-100 odd:bg-blue-100 last:bg-red-100 first:bg-yellow-200 overflow-hidden hover:shadow-xl"
         >
           <div>
             <nuxt-img

@@ -27,10 +27,10 @@
               by offering clients a modern and hassle-free cleaning service experience.
             </p>
             <p>
-              Since then, I've taken the initiative to teach myself coding, mastering
-              HTML, CSS, and JavaScript. Progressing further, I've expanded my skills to
-              build diverse websites using frameworks like Vue.js and Laravel, showcasing
-              a versatile proficiency in web development.
+              Since then, I've taken the initiative to teach myself HTML, CSS, and
+              JavaScript. I've expanded my skills to build websites using frameworks like
+              Vue.js and Laravel. More recently, I've begun playing in the Algorand
+              blockchain ecosystem.
             </p>
           </div>
           <div class="pt-6 h-52 mt-4 overflow-y-auto">
@@ -185,7 +185,10 @@
                 <p class="experience-title">Frontend Developer</p>
                 <ul class="experience-descriptiion">
                   <li>
-                    Revolutionized the digital presence of a cleaning service company, driving it to become the #1 service in Downtown Los Angeles through strategic web development, no-code solutions, and targeted marketing campaigns
+                    Revolutionized the digital presence of a cleaning service company,
+                    driving it to become the #1 service in Downtown Los Angeles through
+                    strategic web development, no-code solutions, and targeted marketing
+                    campaigns
                   </li>
                 </ul>
               </div>

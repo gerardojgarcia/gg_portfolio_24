@@ -217,6 +217,13 @@ const collection = ref([
     link: "/art/james-dean-1",
     alt: "Aimless",
   },
+  {
+    id: 29,
+    title: "Big Dreams in Miami",
+    image: "/art/bigdreamsinmiami.webp",
+    link: "/art/james-dean-1",
+    alt: "Big Dreams in Miami",
+  },
 ]);
 </script>
 <template>

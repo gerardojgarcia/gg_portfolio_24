@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="absolute navigation-container">
-    <nav class="lg:space-x-6 dark:text-white text-xl font-bold">
+    <nav class="lg:space-x-6 dark:text-white bg-black p-2 text-xl font-bold">
       <NuxtLink class="nav-link" to="/">Work</NuxtLink>
       <NuxtLink class="nav-link" to="/about">About</NuxtLink>
       <NuxtLink class="nav-link" to="/art/collection">Art</NuxtLink>
@@ -27,4 +27,11 @@
 .router-link-active {
   color: rgb(198, 142, 142);
 }
+
+@media screen and (max-width: 600px) {
+  .navigation-container {
+    margin-top: 50rem;
+    margin-left: 0rem;
+  }
+} ;
 </style>

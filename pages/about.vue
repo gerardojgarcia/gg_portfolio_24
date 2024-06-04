@@ -1,10 +1,10 @@
 <script setup></script>
 <template>
-  <section class="dark:text-white">
-    <div class="ml-60">
+  <section class="dark:text-white overflow-y-auto">
+    <div class="md:ml-60">
       <h1 class="text-5xl dark:text-white font-bold mt-16 pb-8">About</h1>
-      <div class="about-me flex space-x-16">
-        <div class="w-1/4">
+      <div class="about-me flex flex-col md:flex-row md:space-x-16">
+        <div class="md:w-1/4">
           <NuxtImg
             src="/profile_pic_2.png"
             lazy
@@ -12,12 +12,12 @@
             alt="Black and white photograph of Gerardo Garcia"
           />
         </div>
-        <div class="personal-bio w-1/2">
-          <div class="space-y-4 space-y-auto z-10">
+        <div class="personal-bio md:w-1/2">
+          <div class="space-y-4 md:z-10">
             <strong class="text-3xl">Hi!</strong>
             <p>
               My name is Gerardo! I am a full stack developer specializing in SSR
-              frameworks like Nuxt.js and Laravel.
+              frameworks like Nuxt.js.
             </p>
             <p>
               I began my development career by establishing an online presence for a small
@@ -33,7 +33,7 @@
               blockchain ecosystem.
             </p>
           </div>
-          <div class="pt-6 h-52 mt-4 overflow-y-auto">
+          <div class="pt-6 md:h-52 mt-4 md:overflow-y-auto">
             <div class="flex space-x-6">
               <ul class="mt-1 mb-6">
                 <strong class="text-2xl">UI/UX Design</strong>

@@ -69,7 +69,7 @@ function scrollRight() {
   <section class="flex flex-col">
     <!--Project Carousel-->
     <div
-      class="project-carousel flex flex items-center translate-y-16 min-h-xl space-x-8 overflow-x-scroll px-16 py-8 scroll-smooth"
+      class="project-carousel flex items-center translate-y-16 min-h-xl space-x-8 overflow-x-scroll px-4 md:px-16 py-8 scroll-smooth"
     >
       <!--Project Card-->
       <a

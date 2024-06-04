@@ -52,7 +52,7 @@ const collection = ref([
   {
     id: 8,
     title: "Nude #1",
-    image: "/art/nude_woman.jpg",
+    image: "/art/nude_woman.webp",
     link: "/art/woman-1",
     alt: "Nude #1",
   },

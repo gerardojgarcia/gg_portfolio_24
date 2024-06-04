@@ -203,6 +203,20 @@ const collection = ref([
     link: "/art/james-dean-1",
     alt: "The Revolutionary",
   },
+  {
+    id: 28,
+    title: "The Afternoon",
+    image: "/art/afternoon.webp",
+    link: "/art/james-dean-1",
+    alt: "The Afternoon",
+  },
+  {
+    id: 28,
+    title: "Aimless",
+    image: "/art/aimless.webp",
+    link: "/art/james-dean-1",
+    alt: "Aimless",
+  },
 ]);
 </script>
 <template>

@@ -5,7 +5,7 @@
       <h1 class="text-5xl dark:text-white font-bold mb-16">Contact</h1>
       <p>email: mrgerardogarcia@icloud.com</p>
       <p>phone: 213-294-8744</p>
-      <p>youtube: codewg</p>
+
       <p>
         github:
         <NuxtLink to="https://github.com/gerardojgarcia" class="hover:text-red-200"

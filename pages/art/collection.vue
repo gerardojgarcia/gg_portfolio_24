@@ -224,6 +224,48 @@ const collection = ref([
     link: "/art/james-dean-1",
     alt: "Big Dreams in Miami",
   },
+  {
+    id: 30,
+    title: "Bukowski Takes a Stroll",
+    image: "/art/bukowskitakesastroll.webp",
+    link: "/art/james-dean-1",
+    alt: "Bukowski Takes A Stroll",
+  },
+  {
+    id: 31,
+    title: "Steps ",
+    image: "/art/steps.webp",
+    link: "/art/james-dean-1",
+    alt: "Steps",
+  },
+  {
+    id: 32,
+    title: "Waiting",
+    image: "/art/waiting.webp",
+    link: "/art/james-dean-1",
+    alt: "Illustration of a woman waiting in a booth, smoking a cigarette",
+  },
+  {
+    id: 33,
+    title: "Cliff House, San Francisco ",
+    image: "/art/cliff-hose.webp",
+    link: "/art/james-dean-1",
+    alt: "Illustration of the cliff house in san francisco",
+  },
+  {
+    id: 34,
+    title: "Eastwood #1",
+    image: "/art/eastwood.webp",
+    link: "/art/james-dean-1",
+    alt: "The Afternoon",
+  },
+  {
+    id: 35,
+    title: " Smokebreak",
+    image: "/art/smokebreak.webp",
+    link: "/art/james-dean-1",
+    alt: "Illustration of James Dean taking a smoke break",
+  },
 ]);
 </script>
 <template>

@@ -29,8 +29,7 @@
             <p>
               Since then, I've taken the initiative to teach myself HTML, CSS, and
               JavaScript. I've expanded my skills to build websites using frameworks like
-              Vue.js and Laravel. More recently, I've begun playing in the Algorand
-              blockchain ecosystem.
+              Vue.js and AdonisJS.
             </p>
           </div>
           <div class="pt-6 md:h-52 mt-4 md:overflow-y-auto">
@@ -65,6 +64,7 @@
                 <li>Vue.js</li>
                 <li>Nuxt.js</li>
                 <li>Laravel</li>
+                <li>AdonisJS</li>
               </ul>
             </div>
             <div>

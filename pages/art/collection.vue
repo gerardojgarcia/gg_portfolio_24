@@ -266,10 +266,47 @@ const collection = ref([
     link: "/art/james-dean-1",
     alt: "Illustration of James Dean taking a smoke break",
   },
+  {
+    id: 36,
+    title: "Casa del Valle",
+    image: "/art/casa_garcia_del_valle.webp",
+    link: "/art/james-dean-1",
+    alt: "The Afternoon",
+  },
+  {
+    id: 37,
+    title: "The Timewasters",
+    image: "/art/timewasters.webp",
+    link: "/art/james-dean-1",
+    alt: "The Timewasters",
+  },
+  {
+    id: 38,
+    title: "The Big Show",
+    image: "/art/thebigshow.webp",
+    link: "/art/james-dean-1",
+    alt: "The Afternoon",
+  },
+  {
+    id: 39,
+    title: "The Afternoon",
+    image: "/art/afternoon.webp",
+    link: "/art/james-dean-1",
+    alt: "The Afternoon",
+  },
+  {
+    id: 40,
+    title: "Fleeting",
+    image: "/art/fleeting.webp",
+    link: "/art/james-dean-1",
+    alt: "The Afternoon",
+  },
 ]);
 </script>
 <template>
-  <div class="art-container grid lg:grid-cols-3 gap-2 overflow-y-auto dark:text-white">
+  <div
+    class="art-container h-screen grid lg:grid-cols-3 gap-2 overflow-y-auto dark:text-white"
+  >
     <NuxtLink
       :to="art.link"
       v-for="art in collection"

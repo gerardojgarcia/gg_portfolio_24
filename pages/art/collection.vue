@@ -289,10 +289,10 @@ const collection = ref([
   },
   {
     id: 39,
-    title: "The Afternoon",
-    image: "/art/afternoon.webp",
+    title: "That's Entertainment!",
+    image: "/art/thatsentertainment.webp",
     link: "/art/james-dean-1",
-    alt: "The Afternoon",
+    alt: "Illustration of a drive in theater ",
   },
   {
     id: 40,
@@ -300,6 +300,13 @@ const collection = ref([
     image: "/art/fleeting.webp",
     link: "/art/james-dean-1",
     alt: "The Afternoon",
+  },
+  {
+    id: 41,
+    title: "On the Way ",
+    image: "/art/on_the_way.webp",
+    link: "/art/james-dean-1",
+    alt: "Illustration of a train ride",
   },
 ]);
 </script>

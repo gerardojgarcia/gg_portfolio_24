@@ -10,7 +10,7 @@ const art = ref({
 <template>
   <div class="art-information dark:text-white">
     <div class="flex items-center">
-      <div class="w-1/2">
+      <div class="w-1/2"> 
         <NuxtImg :src="art.image" height="900px" />
       </div>
       <div class="w-1/2 border-2 border-black p-16">

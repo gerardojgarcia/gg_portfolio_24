@@ -28,10 +28,12 @@ const collection = ref([
       :to="art.link"
       v-for="art in collection"
       :key="art.id"
-      class="hover:shadow-xl p-4 duration-100 dark:hover:text-red-200"
+      class="hover:shadow-xl p-4 duration-100 dark:hover:text-red-200 group"
     >
-      <div class="grid place-content-center">
-        <p class="art-title font-bold text-2xl">{{ art.title }}</p>
+      <div class="flex flex-col items-center justify-items-center h-auto">
+        <p class="art-title group-hover:text-red-400 font-bold text-2xl durtation-150">
+          {{ art.title }}
+        </p>
         <NuxtImg :src="art.image" height="900px" preload :alt="art.alt"></NuxtImg>
       </div>
     </NuxtLink>

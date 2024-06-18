@@ -7,20 +7,7 @@ const collection = ref([
     link: "/art/marlon-brando-1",
     alt: "illustration of Marlon Brando",
   },
-  {
-    id: 6,
-    title: "Fallingwater #1",
-    image: "/art/Falling_Water_1.webp",
-    link: "/art/fallingwater-1",
-    alt: "Fallingwater #1",
-  },
-  {
-    id: 7,
-    title: "We Never Close",
-    image: "/art/We_Never_Close.webp",
-    link: "/art/we-never-close",
-    alt: "We Never Close",
-  },
+
   {
     id: 8,
     title: "Nude #1",
@@ -58,13 +45,7 @@ const collection = ref([
     link: "/art/james-dean-1",
     alt: "Frank Frazetta",
   },
-  {
-    id: 13,
-    title: "Gimme Gimme Records",
-    image: "/art/gimme_gimme.webp",
-    link: "/art/james-dean-1",
-    alt: "Gimme Gimme Records",
-  },
+
   {
     id: 14,
     title: "La Soldadera",
@@ -79,20 +60,7 @@ const collection = ref([
     link: "/art/james-dean-1",
     alt: "The Water Carrier",
   },
-  {
-    id: 16,
-    title: "New York 1970",
-    image: "/art/new_york_1970.webp",
-    link: "/art/james-dean-1",
-    alt: "New York 1970",
-  },
-  {
-    id: 17,
-    title: "Waffle House",
-    image: "/art/waffle_house.webp",
-    link: "/art/james-dean-1",
-    alt: "Waffle House",
-  },
+
   {
     id: 18,
     title: "James Dean #2",
@@ -192,13 +160,7 @@ const collection = ref([
     link: "/art/james-dean-1",
     alt: "Illustration of a woman waiting in a booth, smoking a cigarette",
   },
-  {
-    id: 33,
-    title: "Cliff House, San Francisco ",
-    image: "/art/cliff-hose.webp",
-    link: "/art/james-dean-1",
-    alt: "Illustration of the cliff house in san francisco",
-  },
+
   {
     id: 34,
     title: "Eastwood #1",
@@ -213,13 +175,7 @@ const collection = ref([
     link: "/art/james-dean-1",
     alt: "Illustration of James Dean taking a smoke break",
   },
-  {
-    id: 36,
-    title: "Casa del Valle",
-    image: "/art/casa_garcia_del_valle.webp",
-    link: "/art/james-dean-1",
-    alt: "The Afternoon",
-  },
+
   {
     id: 37,
     title: "The Timewasters",

@@ -9,13 +9,13 @@ const collection = ref([
   {
     id: 2,
     title: "East Los Angeles/ Boyle Heights",
-    link: "/art/eastLosAngeles",
+    link: "/art/east-los-angeles-illustrations",
     image: "/art/maravilla.webp",
   },
   {
     id: 3,
     title: "Architecture",
-    link: "/art/eastLosAngeles",
+    link: "/art/architecture",
     image: "/art/falling_water_1.webp",
   },
 ]);

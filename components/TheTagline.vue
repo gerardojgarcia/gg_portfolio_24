@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <div class="absolute pt-6 pl-24 flex dark:text-white">
+  <div class="absolute top-10 pt-6 pl-24 flex dark:text-white">
     <p class="hidden md:block">
       I am a Frontend Developer based in East Los Angeles, California.
     </p>

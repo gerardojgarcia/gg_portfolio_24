@@ -214,7 +214,7 @@ const collection = ref([
 ]);
 </script>
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col mt-24">
     <AppBackButton />
     <div
       class="art-container h-screen grid lg:grid-cols-3 gap-2 overflow-y-auto dark:text-white"

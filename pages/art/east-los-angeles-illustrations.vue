@@ -59,7 +59,7 @@ const eastLosAngeles = ref([
 ]);
 </script>
 <template>
-  <div>
+  <div class="mt-24">
     <AppBackButton />
     <div
       class="art-container h-screen grid lg:grid-cols-3 gap-2 overflow-y-auto dark:text-white"

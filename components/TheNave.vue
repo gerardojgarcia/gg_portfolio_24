@@ -26,6 +26,4 @@
 .router-link-active {
     color: rgb(198, 142, 142);
 }
-
-
 </style>

@@ -54,6 +54,22 @@ export const projects = ref([
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
     link: "https://snapstudio.shop",
   },
+  {
+    id: 8,
+    name: "SealTechPro",
+    img: "./snap_thumbnail.png",
+    video: "./video.webm",
+    tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
+    link: "https://snapstudio.shop",
+  },
+  {
+    id: 9,
+    name: "SafeTree Trimming",
+    img: "./snap_thumbnail.png",
+    video: "./video.webm",
+    tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
+    link: "https://snapstudio.shop",
+  },
 ]);
 
-export default projects
+export default projects;

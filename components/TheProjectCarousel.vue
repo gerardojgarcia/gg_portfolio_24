@@ -12,7 +12,7 @@ function scrollRight() {
     <section class="flex flex-col z-10 mt-24">
         <!--Project Carousel-->
         <div
-            class="project-carousel flex flex-col h-[45rem] md:grid md:grid-cols-3 gap-6 px-4 md:px-16 py-8 overflow-y-scroll scroll-smooth"
+            class="project-carousel flex flex-col h-[45rem] md:grid md:grid-cols-2 gap-6 px-4 md:px-16 py-8 overflow-y-scroll scroll-smooth"
         >
             <!--Project Card-->
             <a

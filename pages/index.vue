@@ -4,8 +4,8 @@
         <TheTagline />
         <div class="grid md:grid-cols-2">
             <TheProjectCarousel />
-            <div class="h-1/2 mt-32 space-y-8 scroll-y-auto bg-white">
-                <strong class="text-5xl">Latest Commits</strong>
+            <div class="h-1/2 mt-32 space-y-8 scroll-y-auto">
+                <strong class="text-5xl dark:text-white">Latest Commits</strong>
                 <GitSealCommits />
                 <GitTreeCommits />
                 <GitHubCommits />

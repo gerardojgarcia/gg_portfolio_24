@@ -30,20 +30,18 @@ const fetchSolarCommits = async () => {
 onMounted(fetchSolarCommits);
 </script>
 <template>
-    <div class="text-white mt-32">
-        <h2 class="text-5xl">Latest Commits</h2>
-        <ul><strong class="text-3xl">SolarSustain</strong>
+    <div class="dark:text-white">
+        <p class="text-3xl">SolarSustain</p>
+        <ul>
             <li
-                v-for="commit in commits.slice(0, 2)"
+                v-for="commit in commits.slice(0, 3)"
                 :key="commit.sha"
-                    class="flex space-x-4"
+                class="flex space-x-4"
             >
-           <p>
+                <p>
                     {{ new Date(commit.commit.author.date).toLocaleString() }}
                 </p>
                 <p>{{ commit.commit.message }}</p>
-             
-                <p>{{ commit.commit.author.name }}</p>
             </li>
         </ul>
     </div>
@@ -53,6 +51,3 @@ h1 {
     font-size: 2rem;
 }
 </style>
-
-
-

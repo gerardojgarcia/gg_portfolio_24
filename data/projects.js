@@ -57,7 +57,7 @@ export const projects = ref([
   {
     id: 8,
     name: "SealTechPro",
-    img: "./snap_thumbnail.png",
+    img: "/sealtech_thumb.png",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
     link: "https://snapstudio.shop",
@@ -65,7 +65,15 @@ export const projects = ref([
   {
     id: 9,
     name: "SafeTree Trimming",
-    img: "./snap_thumbnail.png",
+    img: "/safetree_thumbnail.png",
+    video: "./video.webm",
+    tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
+    link: "https://snapstudio.shop",
+  },
+  {
+    id: 10,
+    name: "SolarSustain",
+    img: "/solar_sustain_thumbnail.png",
     video: "./video.webm",
     tags: ["html", "css", "Javascript", "Vue3", "Nuxt3"],
     link: "https://snapstudio.shop",

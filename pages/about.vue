@@ -12,7 +12,7 @@
                         alt="Black and white photograph of Gerardo Garcia"
                     />
                 </div>
-                <div class="personal-bio md:w-1/2">
+                <div class="personal-bio md:w-1/2 scroll-y-auto py-16">
                     <div class="space-y-4 md:z-10">
                         <strong class="text-3xl">Hi!</strong>
                         <p>
@@ -36,7 +36,7 @@
                             Vue.js and AdonisJS.
                         </p>
                     </div>
-                    <div class="pt-6 md:h-52 mt-4 md:overflow-y-auto">
+                    <div class="pt-6 mt-4">
                         <div class="flex space-x-6">
                             <ul class="mt-1 mb-6">
                                 <strong class="text-2xl">UI/UX Design</strong>

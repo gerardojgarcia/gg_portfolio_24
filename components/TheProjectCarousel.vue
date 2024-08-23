@@ -9,10 +9,11 @@ function scrollRight() {
 }
 </script>
 <template>
-    <section class="flex flex-col z-10 mt-24">
+    <section class="flex flex-col z-10 mt-32">
+        <h1 class="text-5xl font-bold md:pl-5 pb-6">Projects</h1>
         <!--Project Carousel-->
         <div
-            class="project-carousel flex flex-col h-[45rem] md:grid md:grid-cols-2 gap-6 px-4 md:px-16 py-8 overflow-y-scroll scroll-smooth"
+            class="project-carousel flex flex-col h-[45rem] md:grid md:grid-cols-auto gap-6 px-4 md:px-16 py-8 overflow-y-scroll scroll-smooth"
         >
             <!--Project Card-->
             <a

@@ -5,6 +5,9 @@
     <ul
       class="track-list-nav overflow-x-auto md:overflow-y-auto flex md:flex-col space-x-8 md:space-x-0 md:p-8 text-black dark:text-white"
     >
+ <NuxtLink to="/music/northern-soul-1" class="track-item text-lg md:text-4xl text-black dark:text-white"
+        >Night at Wigan Casino: Northern Soul Mix</NuxtLink
+      >
       <NuxtLink
         class="track-item text-lg md:text-4xl text-black dark:text-white"
         to="/music/adiosadiosone"
